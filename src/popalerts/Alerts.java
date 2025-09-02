@@ -31,10 +31,10 @@ public class Alerts {
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//*[@id=\"post-748\"]/div/div/div/div/div/div/div/button")).click();
 	  Thread.sleep(2000);
-	  //driver.switchTo().alert().sendKeys("Raj");
-	  //driver.switchTo().alert().accept();
+	  /*driver.switchTo().alert().sendKeys("Raj");
+	  driver.switchTo().alert().accept();*/
 	  Alert alt = driver.switchTo().alert();
-	  alt.sendKeys("Aravind");
+	  alt.sendKeys("Babu");
 	  alt.accept();
 	  
   }
