@@ -1,177 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-13T21:00:02 IST" name="Default suite" finished-at="2025-08-13T21:01:56 IST" duration-ms="113719">
+  <suite started-at="2025-09-02T13:37:33 IST" name="Default suite" finished-at="2025-09-02T13:37:56 IST" duration-ms="22463">
     <groups>
     </groups>
-    <test started-at="2025-08-13T21:00:02 IST" name="Default test" finished-at="2025-08-13T21:01:56 IST" duration-ms="113719">
-      <class name="testng.k_DataProvider">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testng.k_DataProvider@7bedc48a]" started-at="2025-08-13T21:00:02 IST" name="beforeTest" finished-at="2025-08-13T21:01:10 IST" duration-ms="67778" status="PASS">
+    <test started-at="2025-09-02T13:37:33 IST" name="Default test" finished-at="2025-09-02T13:37:56 IST" duration-ms="22463">
+      <class name="iframes.DemoGithub">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:iframes.DemoGithub@3a52dba3]" started-at="2025-09-02T13:37:33 IST" name="beforeTest" finished-at="2025-09-02T13:37:47 IST" duration-ms="14014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.k_DataProvider@7bedc48a]" started-at="2025-08-13T21:01:10 IST" name="login" data-provider="datainput" finished-at="2025-08-13T21:01:16 IST" duration-ms="5428" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[arun123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Hello@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="techlearnlogin()[pri:0, instance:iframes.DemoGithub@3a52dba3]" started-at="2025-09-02T13:37:47 IST" name="techlearnlogin" finished-at="2025-09-02T13:37:56 IST" duration-ms="8353" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.k_DataProvider@7bedc48a]" started-at="2025-08-13T21:01:16 IST" name="login" data-provider="datainput" finished-at="2025-08-13T21:01:18 IST" duration-ms="2741" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bhuvana]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9521153]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.k_DataProvider@7bedc48a]" started-at="2025-08-13T21:01:18 IST" name="login" data-provider="datainput" finished-at="2025-08-13T21:01:23 IST" duration-ms="4061" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[arjith]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ADHKJFK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.k_DataProvider@7bedc48a]" started-at="2025-08-13T21:01:23 IST" name="login" data-provider="datainput" finished-at="2025-08-13T21:01:27 IST" duration-ms="4048" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chaithanya]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[545465]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.k_DataProvider@7bedc48a]" started-at="2025-08-13T21:01:27 IST" name="login" data-provider="datainput" finished-at="2025-08-13T21:01:30 IST" duration-ms="3674" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[naveen]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[AGFDGFHF]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.k_DataProvider@7bedc48a]" started-at="2025-08-13T21:01:30 IST" name="login" data-provider="datainput" finished-at="2025-08-13T21:01:33 IST" duration-ms="2822" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[manoj]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[54643433]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.k_DataProvider@7bedc48a]" started-at="2025-08-13T21:01:33 IST" name="login" data-provider="datainput" finished-at="2025-08-13T21:01:38 IST" duration-ms="4538" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[akhil]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[53454686]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.k_DataProvider@7bedc48a]" started-at="2025-08-13T21:01:38 IST" name="login" data-provider="datainput" finished-at="2025-08-13T21:01:41 IST" duration-ms="3479" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[lavanya]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[SDDSGDS]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.k_DataProvider@7bedc48a]" started-at="2025-08-13T21:01:41 IST" name="login" data-provider="datainput" finished-at="2025-08-13T21:01:44 IST" duration-ms="2857" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Shiva]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3546435]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testng.k_DataProvider@7bedc48a]" started-at="2025-08-13T21:01:44 IST" name="login" data-provider="datainput" finished-at="2025-08-13T21:01:56 IST" duration-ms="12230" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[arijit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Selenium@2025]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- testng.k_DataProvider -->
+        </test-method> <!-- techlearnlogin -->
+      </class> <!-- iframes.DemoGithub -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
