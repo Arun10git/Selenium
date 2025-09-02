@@ -12,9 +12,9 @@ public class Alerts {
   @Test
   public void okButton() throws InterruptedException {
 	  driver.get("https://www.techlearn.in/code/confirmation-dialog-box/");
-	  Thread.sleep(2000);
+	  Thread.sleep(4000);
 	  driver.findElement(By.xpath("//*[@id=\"post-725\"]/div/div/div/div/div/div/div/button")).click();
-	  Thread.sleep(2000);
+	  Thread.sleep(4000);
 	  driver.switchTo().alert().accept();
   }
   @Test
