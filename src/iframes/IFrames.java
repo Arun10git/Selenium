@@ -12,7 +12,7 @@ public class IFrames {
   @Test
   public void handleifrmaes() throws InterruptedException {
 	  driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
-	  Thread.sleep(2000);
+	  Thread.sleep(5000);
 	  WebElement frm = driver.findElement(By.xpath("//*[@id=\"iframeResult\"]"));
 	  driver.switchTo().frame(frm);
 	  driver.findElement(By.xpath("/html/body/button")).click();
